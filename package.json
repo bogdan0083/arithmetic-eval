@@ -1,0 +1,23 @@
+{
+  "name": "arithmetic-eval",
+  "version": "0.0.1",
+  "description": "Simple evaluator of arithmetic expressions",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test tests/*.test.ts",
+    "build": "tsc",
+    "preinstall": "tsc"
+  },
+  "author": "Bogdan Dolin",
+  "license": "ISC",
+  "bin": "./build/bin/cli.js",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.4.2"
+  }
+}

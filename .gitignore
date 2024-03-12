@@ -1,0 +1,6 @@
+.cache
+.config
+.upm
+.replit
+node_modules
+build
