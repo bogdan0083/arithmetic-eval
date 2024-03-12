@@ -1,7 +1,7 @@
 # Arithmetic Eval
 Dead simple arithmetic evaluator created for educational purposes. It doesn't use [eval()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/eval) but contains custom tokenizer and evaluator. It correctly handles precedence of operators and parenthesis.
 
-!(example)[https://github.com/bogdan0083/arithmetic-eval/blob/master/example.gif)]
+!(example)[https://github.com/bogdan0083/arithmetic-eval/blob/master/example.gif?raw=true]
 
 
 ## Installation
